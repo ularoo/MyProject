@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+NUM_THREADS	multithread_signal.c	6;"	d	file:
+_thread_args	multithread_signal.c	/^typedef struct _thread_args$/;"	s	file:
+cleanThread	multithread_signal.c	/^void cleanThread(thread_args* pArgs)$/;"	f
+func	multithread_signal.c	/^ void* (*func)();$/;"	m	struct:_thread_args	file:
+main	multithread_signal.c	/^int main()$/;"	f
+sa_handler_usr	multithread_signal.c	/^void sa_handler_usr(int nSigNum)$/;"	f
+startSigThread	multithread_signal.c	/^void *startSigThread(void* pArgs)$/;"	f
+startThread	multithread_signal.c	/^void *startThread(void* pArgs)$/;"	f
+tId	multithread_signal.c	/^ pthread_t tId;$/;"	m	struct:_thread_args	file:
+tThreadArgs	multithread_signal.c	/^thread_args tThreadArgs[NUM_THREADS] = {$/;"	v
+thread_args	multithread_signal.c	/^}thread_args;$/;"	t	typeref:struct:_thread_args	file:
